@@ -6,12 +6,6 @@ tagline: Blog dedicado à assuntos diversos
 lang: pt_BR
 
 google_analytics: UA-120280297-2
-webmaster_verifications:
-  google: 00000000000000000000000000000000
-  #bing: 
-  #alexa: 
-  #yandex: 
-  #baidu: 
 
 permalink: pretty
 baseurl: ""
