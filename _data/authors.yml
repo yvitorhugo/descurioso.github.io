@@ -1,0 +1,15 @@
+groupunknown:
+    name: Michael Scott
+    role: 1
+    bio: >
+        ⁠Estou fugindo das minhas responsabilidades, e a sensação é ótima.
+dwight_schrute:
+    name: Dwight Schrute
+    role: 2
+    bio: >
+        Antes de fazer alguma coisa, eu me pergunto: “Será que um idiota faria isso?” E se a resposta for sim, eu não faço aquela coisa.
+heisenberg:
+    name: Heisenberg
+    role: 3
+    bio: >
+        Say my name
