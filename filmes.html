@@ -5,7 +5,7 @@ layout: default
 {% assign prevflag = 1 %}
 {% assign nextflag = 1 %}
 
-{% for c in site.your_collection %}
+{% for c in site.filmes %}
   {% if c.title == page.title %}
     {% assign currentItemIndex = forloop.index0 %}
     {% if forloop.index == 1 %}
@@ -20,12 +20,12 @@ layout: default
 
 {% if prevflag == 1 %}
   {% assign prevItemIndex = currentItemIndex | minus: 1 %}
-  {% assign prevPost = site.your_collection[prevItemIndex] %}
+  {% assign prevPost = site.filmes[prevItemIndex] %}
 {% endif %}
 
 {% if nextflag == 1 %}
   {% assign nextItemIndex = currentItemIndex | plus: 1 %}
-  {% assign nextPost = site.your_collection[nextItemIndex] %}
+  {% assign nextPost = site.filmes[nextItemIndex] %}
 {% endif %}
 
 <div id="post-nav">
