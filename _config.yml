@@ -40,22 +40,22 @@ collections:
     permalink: /:slug #/:year/:month/:day/:slug
   filmes:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:title
   series:
     output: true
-    permalink: /series/:slug
+    permalink: /:collection/:title
   musicas:
     output: true
-    permalink: /musicas/:slug
+    permalink: /:collection/:title
   jogos:
     output: true
-    permalink: /jogos/:slug
+    permalink: /:collection/:title
   programas:
     output: true
-    permalink: /programas/:slug
+    permalink: /:collection/:title
   blog:
     output: true
-    permalink: /blog/:slug
+    permalink: /:collection/:title
   
 defaults:
   -
