@@ -40,7 +40,7 @@ collections:
     permalink: /:slug #/:year/:month/:day/:slug
   filmes:
     output: true
-    permalink: /filmes/:slug
+    permalink: /:collection/:title/
   series:
     output: true
     permalink: /series/:slug
