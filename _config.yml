@@ -49,19 +49,19 @@ collections:
     permalink: /filmes/:slug
   series:
     output: true
-    permalink: /:slug
+    permalink: /series/:slug
   musicas:
     output: true
-    permalink: /:slug
+    permalink: /musicas/:slug
   jogos:
     output: true
-    permalink: /:slug
+    permalink: /jogos/:slug
   programas:
     output: true
-    permalink: /:slug
+    permalink: /programas/:slug
   blog:
     output: true
-    permalink: /:slug
+    permalink: /blog/:slug
   
 defaults:
   -
